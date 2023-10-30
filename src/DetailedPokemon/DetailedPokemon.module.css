@@ -1,0 +1,5 @@
+.detailed_pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

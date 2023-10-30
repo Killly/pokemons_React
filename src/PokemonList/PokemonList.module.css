@@ -1,0 +1,26 @@
+.pokemon_list {
+  display: flex;
+  width: 50%;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1vh;
+  padding-top: 1vh;
+  justify-content: start;
+}
+
+.load {
+  width: 99%;
+  height: 50px;
+  background-color: mediumblue;
+  color: white;
+  font-weight: 700;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.load:hover {
+  background-color: black;
+}
